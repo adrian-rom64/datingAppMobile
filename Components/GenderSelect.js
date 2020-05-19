@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, TouchableOpacity} from 'react-native'
 import PropTypes from 'prop-types'
-import { MaterialCommunityIcons } from '@expo/vector-icons'
+// import { MaterialCommunityIcons } from '@expo/vector-icons'
 import colors from '../assets/colors'
 
 const GenderSelect = props => {
@@ -11,13 +11,13 @@ const GenderSelect = props => {
   return (
     <View style={{ ...styles.container, ...props.style }}>
       <TouchableOpacity onPress={() => props.onChange('male')}>
-        <MaterialCommunityIcons name="gender-male" size={props.iconSize} color={colorFor('male')}/>
+        {/* <MaterialCommunityIcons name="gender-male" size={props.iconSize} color={colorFor('male')}/> */}
       </TouchableOpacity>
       <TouchableOpacity onPress={() => props.onChange('female')}>
-        <MaterialCommunityIcons name="gender-female" size={props.iconSize} color={colorFor('female')}/>
+        {/* <MaterialCommunityIcons name="gender-female" size={props.iconSize} color={colorFor('female')}/> */}
       </TouchableOpacity>
       <TouchableOpacity onPress={() => props.onChange('both')}>
-        <MaterialCommunityIcons name="gender-male-female" size={props.iconSize} color={colorFor('both')}/>
+        {/* <MaterialCommunityIcons name="gender-male-female" size={props.iconSize} color={colorFor('both')}/> */}
       </TouchableOpacity>
     </View>
   )

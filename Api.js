@@ -1,9 +1,9 @@
 import { AsyncStorage } from 'react-native'
-import { API_URL, HOSTNAME } from 'react-native-dotenv'
+// import { API_URL, HOSTNAME } from 'react-native-dotenv'
 import { Alert } from 'react-native'
 
-const apiUrl = API_URL
-const hostname = HOSTNAME
+const apiUrl = 'localhost'
+const hostname = 'HOSTNAME'
 
 const authHeader = async (path) => {
   if (path === '/sessions' || path === '/registrations') return {}

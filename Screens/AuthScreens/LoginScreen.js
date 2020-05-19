@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {View, StyleSheet, TouchableOpacity, Alert, Image,TouchableWithoutFeedback, Keyboard, KeyboardAvoidingView, Platform, Dimensions} from 'react-native'
 import Text from '../../Components/Text'
 import {useDispatch} from 'react-redux'
-import {FontAwesome} from '@expo/vector-icons'
+// import {FontAwesome} from '@expo/vector-icons'
 import colors from '../../assets/colors'
 
 import * as authActons from '../../store/actions/auth'

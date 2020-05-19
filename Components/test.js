@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, ScrollView, Image, StyleSheet, Dimensions} from 'react-native'
-import {FontAwesome, Entypo, MaterialCommunityIcons} from '@expo/vector-icons'
+// import {FontAwesome, Entypo, MaterialCommunityIcons} from '@expo/vector-icons'
 
 import test from '../assets/test.jpg'
 import test2 from '../assets/test2.jpg'

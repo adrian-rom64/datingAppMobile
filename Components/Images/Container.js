@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { View, StyleSheet } from 'react-native'
 import ImagePicker from './ImagePicker'
-import * as Picker from 'expo-image-picker';
+// import * as Picker from 'expo-image-picker';
 import * as Logic from './Logic'
 
 const UserImages = () => {

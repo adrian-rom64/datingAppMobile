@@ -1,13 +1,13 @@
 import React from 'react'
 import { View, StyleSheet, TextInput } from 'react-native'
 import PropTypes from 'prop-types'
-import { FontAwesome5 } from '@expo/vector-icons'
+// import { FontAwesome5 } from '@expo/vector-icons'
 
 const IconWithInput = (props) => {
 	return (
 		<View style={styles.container}>
 			<View style={styles.icon}>
-				<FontAwesome5 name={props.icon} color={"grey"} size={18} />
+				{/* <FontAwesome5 name={props.icon} color={"grey"} size={18} /> */}
 			</View>
 			<TextInput
 				placeholder={props.placeholder}

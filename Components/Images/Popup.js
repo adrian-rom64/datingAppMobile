@@ -2,7 +2,7 @@ import React from 'react'
 import { View, StyleSheet, Modal, Image, Dimensions, TouchableOpacity } from 'react-native'
 import Text from '../../Components/Text'
 import PropTypes from 'prop-types'
-import { FontAwesome5 } from '@expo/vector-icons'
+// import { FontAwesome5 } from '@expo/vector-icons'
 
 const width = Dimensions.get('screen').width
 
@@ -29,7 +29,7 @@ const Popup = (props) => {
         <View style={styles.actions}>
           <TouchableOpacity onPress={deleteHandler}>
             <View style={styles.action}>
-              <FontAwesome5 name="trash-alt" color="#ccc" size={30}/>
+              {/* <FontAwesome5 name="trash-alt" color="#ccc" size={30}/> */}
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={setAsMainHandler}>

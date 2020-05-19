@@ -8,8 +8,8 @@ import {
   Text,
 } from 'react-native'
 import colors from '../assets/colors'
-import { Feather } from '@expo/vector-icons'
-import { Octicons } from '@expo/vector-icons'
+// import { Feather } from '@expo/vector-icons'
+// import { Octicons } from '@expo/vector-icons'
 import PropTypes from 'prop-types'
 
 const iconSize = Math.floor(Dimensions.get('window').width / 3)
@@ -34,13 +34,13 @@ const SettingsModal = props => {
           <TouchableOpacity onPressOut={editProfileHandler}>
             <View style={styles.option}>
               <Text style={styles.label}>Edit Profile</Text>
-              <Feather name="edit" color={colors.lightBlack} size={iconSize} />
+              {/* <Feather name="edit" color={colors.lightBlack} size={iconSize} /> */}
             </View>
           </TouchableOpacity>
           <View style={styles.divider}></View>
           <TouchableOpacity onPressOut={editPreferencesHandler}>
             <View style={styles.option}>
-              <Octicons name="settings" color={colors.lightBlack} size={iconSize} />
+              {/* <Octicons name="settings" color={colors.lightBlack} size={iconSize} /> */}
               <Text style={styles.label}>Preferences</Text>
             </View>
           </TouchableOpacity>

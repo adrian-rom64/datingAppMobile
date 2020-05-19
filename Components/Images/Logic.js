@@ -1,4 +1,4 @@
-import * as Permissions from 'expo-permissions'
+// import * as Permissions from 'expo-permissions'
 import MD5 from 'react-native-md5'
 import Api from '../../Api'
 import { Alert } from 'react-native'
@@ -18,12 +18,12 @@ export const parseServerResponse = (data) => {
 }
 
 export const verifyPermissions = async () => {
-  const result = await Permissions.askAsync(Permissions.CAMERA_ROLL)
-  if (result.status === 'granted') return true
-  if (result.status !== 'granted') {
-    alert('You need to grant camera roll permission', 'Insufficient permissions!')
-    return false
-  }
+  // const result = await Permissions.askAsync(Permissions.CAMERA_ROLL)
+  // if (result.status === 'granted') return true
+  // if (result.status !== 'granted') {
+  //   alert('You need to grant camera roll permission', 'Insufficient permissions!')
+  //   return false
+  // }
   return true
 }
 
